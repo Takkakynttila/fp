@@ -9,7 +9,7 @@ pub fn watch() -> std::io::Result<()> {
     let args: Vec<String> = env::args().collect();
 
     if args.len() < 2 {
-        println!("Not enough arguments!");
+        println!("Usage: fp [path] <command> [arg1] [arg2]");
         exit(1);
     }
 
