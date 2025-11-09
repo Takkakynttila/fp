@@ -1,0 +1,11 @@
+[package]
+name = "file_poller"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossterm = "0.28"
+
+[[bin]]
+name = "fp"
+path = "src/main.rs"
